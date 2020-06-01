@@ -1,6 +1,6 @@
 workspace "Hazel"
 	architecture "x86_64"
-	startproject "Sandbox"
+	startproject "Game"
 
 	configurations
 	{
@@ -101,8 +101,8 @@ project "Hazel"
 		runtime "Release"
 		optimize "on"
 
-project "Sandbox"
-	location "Sandbox"
+project "Game"
+	location "Game"
 	kind "ConsoleApp"
 	language "C++"
 	cppdialect "C++17"
